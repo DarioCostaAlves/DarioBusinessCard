@@ -4,8 +4,8 @@ export default function Info() {
     return(
         <main>
             <img src={image} alt=""/>
-            <div>
-                <h1>Dário Costa Alves</h1>
+            <div className="info">
+                <h1>Dário Costa</h1>
                 <h5>Frontend Developer</h5>
                 <p>dariosite.pt</p>
             </div>
