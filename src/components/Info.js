@@ -1,4 +1,6 @@
 import image from '../assets/girl.png'
+import icon from '../assets/Icon.png'
+import link from '../assets/Vector.png'
 
 export default function Info() {
     return(
@@ -10,8 +12,14 @@ export default function Info() {
                 <p>dariosite.pt</p>
             </div>
             <div>
-                <button>Email</button>
-                <button>Linkedin</button>
+                <button className="btn-email">
+                    <img src={icon} alt=""/>
+                    Email
+                </button>
+                <button className="btn-linkedin">
+                    <img src={link} alt=""/>
+                    Linkedin
+                </button>
             </div>
         </main>
     )
