@@ -96,3 +96,17 @@ footer > img {
     width: 60px;
     margin: 20px;
 }
+
+ @media screen and (min-width:991px){
+    .img--avatar{
+        width: 70%;
+    }
+
+    .container{
+        width: 30%;
+    }
+
+    h1{
+        font-size: 2.2em;
+    }
+ }
