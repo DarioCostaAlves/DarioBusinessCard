@@ -5,7 +5,7 @@ import link from '../assets/Vector.png'
 export default function Info() {
     return(
         <main>
-            <img src={image} alt=""/>
+            <img className="img--avatar" src={image} alt=""/>
             <div className="info">
                 <h1>Dário Costa</h1>
                 <h5>Frontend Developer</h5>
